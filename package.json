@@ -1,0 +1,16 @@
+{
+  "name": "ejsapp",
+  "version": "1.0.0",
+  "description": "An Express app in which ejs file and html file rendering is introduced.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mohammad Ayub",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "faker": "^4.1.0"
+  }
+}

@@ -1,0 +1,7 @@
+<% include partials/header %>
+<h1>Welcome to my product page</h1>
+<h2>We have the following list of products in our shop</h2>
+<% products.forEach(function(product){ %>
+    <li><%= product.name %> - $<%= product.price %></li>
+<% }) %>
+<% include partials/footer %>
